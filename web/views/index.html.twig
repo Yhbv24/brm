@@ -4,99 +4,78 @@
 <title>Board Management</title>
 </head>
 <body>
-<!-- Form for adding a new contact -->
-<div class='row'>
-    <div class='col-md-12'>
-        <div class='panel panel-primary'>
-            <div class='panel-heading'>
-                <h1 class='panel-title'>Add a Contact</h1>
-            </div>
-            <div class='panel-body'>
-                <form action='/contacts' method='post'>
-                    <div class='row'>
-                        <div class='col-sm-3'>
+    <div class="row">
+        <div class="col-md-8">
+            <p>Board dashboard here</p>
+        </div>
+        <div class="col-md-4">
+            <div class='panel panel-primary'>
+                <div class='panel-heading'>
+                    <h1 class='panel-title'>Add a Contact</h1>
+                </div>
+                <div class='panel-body'>
+                    <form action='/contacts' method='post'>
+                        <div class='row'>
                             <div class='form-group'>
                                 <label for='first-name'>First Name</label>
                                 <input id='first-name' name='first-name' type='text'>
                             </div>
-                        </div>
-                        <div class='col-sm-3'>
                             <div class='form-group'>
                                 <label for='last-name'>Last Name</label>
                                 <input id='last-name' name='last-name' type='text'>
                             </div>
                         </div>
-                        <div class='col-sm-3'>
+                        <div class="row">
                             <div class='form-group'>
                                 <label for='phone-number'>Phone Number</label>
                                 <input id='phone-number' name='phone-number' type='text'>
                             </div>
                         </div>
-                    </div>
-                    <div class='row'>
-                        <div class='col-sm-3'>
+                        <div class='row'>
                             <div class='form-group'>
                                 <label for='street-address'>Street</label>
                                 <input id='street-address' name='street-address' type='text'>
                             </div>
-                        </div>
-                        <div class='col-sm-3'>
                             <div class='form-group'>
                                 <label for='city-address'>City</label>
                                 <input id='city-address' name='city-address' type='text'>
                             </div>
-                        </div>
-                        <div class='col-sm-3'>
                             <div class='form-group'>
                                 <label for='state-address'>State</label>
                                 <input id='state-address' name='state-address' type='text'>
                             </div>
-                        </div>
-                        <div class='col-sm-3'>
                             <div class='form-group'>
                                 <label for='zip-address'>Zip Code</label>
                                 <input id='zip-address' name='zip-address' type='text'>
                             </div>
                         </div>
-                    </div>
-                    <div class='col-sm-3'>
-                        <div class='form-group'>
-                            <label for='company-name'>Company Name</label>
-                            <input id='company-name' name='company-name' type='text'>
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class='col-sm-3'>
+                        <div class="row">
+                            <div class='form-group'>
+                                <label for='company-name'>Company Name</label>
+                                <input id='company-name' name='company-name' type='text'>
+                            </div>
                             <div class='form-group'>
                                 <label for='company-street-address'>Company Street</label>
                                 <input id='company-street-address' name='company-street-address' type='text'>
                             </div>
-                        </div>
-                        <div class='col-sm-3'>
                             <div class='form-group'>
                                 <label for='company-city-address'>Company City</label>
                                 <input id='company-city-address' name='company-ity-address' type='text'>
                             </div>
-                        </div>
-                        <div class='col-sm-3'>
                             <div class='form-group'>
                                 <label for='company-state-address'>Company State</label>
                                 <input id='company-state-address' name='company-state-address' type='text'>
                             </div>
-                        </div>
-                        <div class='col-sm-3'>
                             <div class='form-group'>
                                 <label for='company-zip-address'>Company Zip Code</label>
                                 <input id='company-zip-address' name='company-zip-address' type='text'>
                             </div>
                         </div>
-                    </div>
-
-                    <button type='submit' class="pull-right">Company Add Contact</button>
-                </form>
+                        <button type='submit' class="pull-right">Company Add Contact</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </body>
 </html>
